@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:100,300,400,600" rel="stylesheet" type="text/css">
+        <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css" href="Vendors/CSS/grid.css">
+        <title>Fit Project</title>
+    </head>
+    <body>
+<section class = 'Title-section'>
+  
+   
+    <h1>Workout Tracker</h1>
+    
+    <i class = 'ion-ios-help'>Help</i>
+</section>
+<section class='Datafil-section'>
+    <div class='col span-1-of-5'>
+    <div class = 'selections'>
+        <select name="Workout" id="Workout">
+                    <option value="Push" selected>Push</option>
+                    <option value="Pull" >Pull</option>
+                        <option value="Legs">Legs</option>
+             <option value="Upper" >Upper</option>
+                        <option value="Lower">Lower</option>
+                         <option value="Other">Other</option>
+                             
+                    </select>
+  
+    </div>
+    </div>
+    <div class='col span-1-of-5'>
+    <div class = 'Exercise'>
+                        <input type="text" name="Exercise" id="Exercise" placeholder="Exercise" required>
+    </div>
+    
+    </div>
+    
+    <div class="col span-1-of-5 ">
+           <input type="number" class="Sets" placeholder="Sets">
+                   
+    
+    </div>
+        <div class="col span-1-of-5 ">
+           <input type="number" class="Reps" placeholder="Reps">
+                   
+    
+    </div>
+    <div class='col span-1-of-5'>
+    <div class='btn'>
+   <i class="ion-ios-checkmark"></i>
+    </div>
+    </div>
+</section>
+    
+<section class = 'Workout-section'>
+ 
+<div class='row'>
+        <div class = 'col span-1-of-3'>
+   <img src="Pull.png" class = 'PullImg'>
+    </div>
+          <div class = 'col span-1-of-3'>
+    <img src="Push.png" class = 'PushImg'
+>
+    </div>
+       <div class = 'col span-1-of-3'>
+   <img src="Upper.png" class = 'UpperImg'
+>
+    </div>
+    </div>
+        <div class='row'>
+     
+          <div class = 'col span-1-of-3'>
+    <img src="Lower.png" class = 'LowerImg'
+>
+    </div>
+       
+        <div class = 'col span-1-of-3'>
+   <img src="Legs.png" class = 'LegsImg'
+>
+    </div>
+          <div class = 'col span-1-of-3'>
+    <img src="Other.png" class = 'OtherImg'
+>
+    </div>
+    </div>
+        
+        </section>        
+        
+        
+        <script src="app.js"></script>
+    </body>
+</html>
